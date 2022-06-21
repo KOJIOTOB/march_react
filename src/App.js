@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+// 1. Описати всю сім'ю сімпсонів (5 персонажів)
+
 import './App.css';
+import SimpsonData from "./components/ComponentsSimpson";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SimpsonData
+          itemName={'Homer'}
+          desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, et.'}
+          picture={'https://static.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png'}
+      />
+        <SimpsonData
+          itemName={'Marge'}
+          desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, et.'}
+          picture={'https://static.wikia.nocookie.net/simpsons/images/4/4d/MargeSimpson.png'}
+      />
+        <SimpsonData
+            itemName={'Bart'}
+            desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, et.'}
+            picture={'https://static.wikia.nocookie.net/simpsons/images/6/65/Bart_Simpson.png'}
+        />
+        <SimpsonData
+          itemName={'Lisa'}
+          desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, et.'}
+          picture={'https://static.wikia.nocookie.net/simpsons/images/d/d5/Lisa_Simpson_official.png'}
+      />
+        <SimpsonData
+          itemName={'Maggie'}
+          desc={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, et.'}
+          picture={'https://static.wikia.nocookie.net/simpsons/images/9/9d/Maggie_Simpson.png'}
+      />
+
+
     </div>
   );
 }
