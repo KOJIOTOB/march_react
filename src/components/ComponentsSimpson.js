@@ -1,4 +1,4 @@
-import '../App.css'
+import '../App'
 
 function SimpsonData(props) {
     let {itemName, desc, picture} = props;
