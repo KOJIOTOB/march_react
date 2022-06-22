@@ -1,0 +1,63 @@
+body {
+    background: grey;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-around;
+    margin: 30px auto;
+    box-sizing: border-box;
+    grid-gap: 30px;
+}
+
+.user {
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+    border-radius: 10px;
+    background: black;
+    color: wheat;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.user>h5{
+
+    width: 30px;
+    height: 30px;
+    background: #3e68bd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 120px;
+    color: darkorange;
+}
+
+
+.user>h3{
+
+    border-bottom: 3px solid darkorange;
+    width: 260px;
+}
+
+.user>h4{
+
+
+    width: 260px;
+}
+
+.user>img {
+    border-radius: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+
+}
