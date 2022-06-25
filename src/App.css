@@ -1,0 +1,46 @@
+.App {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+
+}
+
+.user {
+    border-bottom: 3px solid indigo;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.user>h4 {
+    margin-left: 10px;
+}
+
+.user>button {
+cursor: pointer;
+}
+
+.userDetails {
+    width: 300px;
+    float: right;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0, rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.userDetails>h3 {
+    color: darkorange;
+}
+
+.exit {
+    display: none;
+}
