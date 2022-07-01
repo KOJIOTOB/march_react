@@ -1,0 +1,36 @@
+.App {
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.user {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid cornflowerblue;
+
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    width: 1050px;
+
+}
+
+.post {
+    border-bottom: 3px solid gold;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
+
+}
