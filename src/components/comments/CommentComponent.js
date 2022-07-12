@@ -9,7 +9,7 @@ function CommentComponent({item}) {
             <h4>{item.email}</h4>
             <p>{item.body}</p>
             <hr/>
-            <span style={{display:'flex',
+            <div style={{display:'flex',
                 width:'180px', height:'40px',
                 background:'yellow',
                 justifyContent:'center',
@@ -18,7 +18,9 @@ function CommentComponent({item}) {
                 borderRadius:'20px',
                 fontSize:'20px',
                 fontWeight:'bold'
-            }}><Link style={{textDecoration:'none', color:'indianred'}} to={item.postId.toString()}>Открыть Посты</Link></span>
+            }}>
+                <Link style={{textDecoration:'none', color:'indianred'}} to={item.postId.toString()}>Открыть Посты</Link>
+            </div>
             <hr/>
         </div>
     )
