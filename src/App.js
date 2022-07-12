@@ -8,7 +8,7 @@ import {MainLayouts} from "./layouts/MainLayouts";
 import {TodoPage} from "./pages/TodoPage";
 import {AlbumPage} from "./pages/AlbumPage";
 import {CommentPage} from "./pages/CommentPage";
-import {PostComponent} from "./components";
+import {PostsComponent} from "./components";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
                   <Route path={'todos'} element={<TodoPage/>}/>
                   <Route path={'albums'} element={<AlbumPage/>}/>
                   <Route path={'comments'} element={<CommentPage/>}>
-                      <Route path={':postId'} element={<PostComponent/>}/>
+                      <Route path={':postId'} element={<PostsComponent/>}/>
                   </Route>
               </Route>
           </Routes>
@@ -28,5 +28,8 @@ function App() {
 }
 
 export default App;
+
+// отримати пости та вивести їх використовуючи класові копмоненти
+// отримати коментарі та вивести їх використовуючи класові копмоненти
 
 
