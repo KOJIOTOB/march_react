@@ -1,0 +1,12 @@
+.Car {
+    border: 1px solid #ffffff;
+    padding: 25px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.Car>button {
+    margin:10px;
+
+}
